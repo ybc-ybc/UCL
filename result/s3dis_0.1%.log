@@ -1,0 +1,358 @@
+[2024-04-08 08:24:06,241 INFO optim_factory.py line 119 101099] Param groups = {
+  "decay": {
+    "weight_decay": 0.0001,
+    "params": [
+      "encoder.encoder.0.0.convs1.0.0.weight",
+      "encoder.encoder.1.0.convs1.0.0.weight",
+      "encoder.encoder.1.0.convs2.0.0.weight",
+      "encoder.encoder.1.1.convs.convs1.0.0.weight",
+      "encoder.encoder.1.1.pwconv.0.0.weight",
+      "encoder.encoder.1.1.pwconv.1.0.weight",
+      "encoder.encoder.1.2.convs.convs1.0.0.weight",
+      "encoder.encoder.1.2.pwconv.0.0.weight",
+      "encoder.encoder.1.2.pwconv.1.0.weight",
+      "encoder.encoder.2.0.convs1.0.0.weight",
+      "encoder.encoder.2.0.convs2.0.0.weight",
+      "encoder.encoder.2.1.convs.convs1.0.0.weight",
+      "encoder.encoder.2.1.pwconv.0.0.weight",
+      "encoder.encoder.2.1.pwconv.1.0.weight",
+      "encoder.encoder.2.2.convs.convs1.0.0.weight",
+      "encoder.encoder.2.2.pwconv.0.0.weight",
+      "encoder.encoder.2.2.pwconv.1.0.weight",
+      "encoder.encoder.2.3.convs.convs1.0.0.weight",
+      "encoder.encoder.2.3.pwconv.0.0.weight",
+      "encoder.encoder.2.3.pwconv.1.0.weight",
+      "encoder.encoder.2.4.convs.convs1.0.0.weight",
+      "encoder.encoder.2.4.pwconv.0.0.weight",
+      "encoder.encoder.2.4.pwconv.1.0.weight",
+      "encoder.encoder.3.0.convs1.0.0.weight",
+      "encoder.encoder.3.0.convs2.0.0.weight",
+      "encoder.encoder.3.1.convs.convs1.0.0.weight",
+      "encoder.encoder.3.1.pwconv.0.0.weight",
+      "encoder.encoder.3.1.pwconv.1.0.weight",
+      "encoder.encoder.3.2.convs.convs1.0.0.weight",
+      "encoder.encoder.3.2.pwconv.0.0.weight",
+      "encoder.encoder.3.2.pwconv.1.0.weight",
+      "encoder.encoder.4.0.convs1.0.0.weight",
+      "encoder.encoder.4.0.convs2.0.0.weight",
+      "encoder.encoder.4.1.convs.convs1.0.0.weight",
+      "encoder.encoder.4.1.pwconv.0.0.weight",
+      "encoder.encoder.4.1.pwconv.1.0.weight",
+      "encoder.encoder.4.2.convs.convs1.0.0.weight",
+      "encoder.encoder.4.2.pwconv.0.0.weight",
+      "encoder.encoder.4.2.pwconv.1.0.weight",
+      "encoder.pe_encoder.1.0.0.weight",
+      "encoder.pe_encoder.2.0.0.weight",
+      "encoder.pe_encoder.3.0.0.weight",
+      "encoder.pe_encoder.4.0.0.weight",
+      "decoder.decoder.0.0.convs.0.0.weight",
+      "decoder.decoder.0.0.convs.1.0.weight",
+      "decoder.decoder.1.0.convs.0.0.weight",
+      "decoder.decoder.1.0.convs.1.0.weight",
+      "decoder.decoder.2.0.convs.0.0.weight",
+      "decoder.decoder.2.0.convs.1.0.weight",
+      "decoder.decoder.3.0.convs.0.0.weight",
+      "decoder.decoder.3.0.convs.1.0.weight",
+      "head.head.0.0.weight",
+      "head.head.2.0.weight"
+    ],
+    "lr_scale": 1.0
+  },
+  "no_decay": {
+    "weight_decay": 0.0,
+    "params": [
+      "encoder.encoder.0.0.convs1.0.0.bias",
+      "encoder.encoder.1.0.convs1.0.1.weight",
+      "encoder.encoder.1.0.convs1.0.1.bias",
+      "encoder.encoder.1.0.convs2.0.1.weight",
+      "encoder.encoder.1.0.convs2.0.1.bias",
+      "encoder.encoder.1.1.convs.convs1.0.1.weight",
+      "encoder.encoder.1.1.convs.convs1.0.1.bias",
+      "encoder.encoder.1.1.pwconv.0.1.weight",
+      "encoder.encoder.1.1.pwconv.0.1.bias",
+      "encoder.encoder.1.1.pwconv.1.1.weight",
+      "encoder.encoder.1.1.pwconv.1.1.bias",
+      "encoder.encoder.1.2.convs.convs1.0.1.weight",
+      "encoder.encoder.1.2.convs.convs1.0.1.bias",
+      "encoder.encoder.1.2.pwconv.0.1.weight",
+      "encoder.encoder.1.2.pwconv.0.1.bias",
+      "encoder.encoder.1.2.pwconv.1.1.weight",
+      "encoder.encoder.1.2.pwconv.1.1.bias",
+      "encoder.encoder.2.0.convs1.0.1.weight",
+      "encoder.encoder.2.0.convs1.0.1.bias",
+      "encoder.encoder.2.0.convs2.0.1.weight",
+      "encoder.encoder.2.0.convs2.0.1.bias",
+      "encoder.encoder.2.1.convs.convs1.0.1.weight",
+      "encoder.encoder.2.1.convs.convs1.0.1.bias",
+      "encoder.encoder.2.1.pwconv.0.1.weight",
+      "encoder.encoder.2.1.pwconv.0.1.bias",
+      "encoder.encoder.2.1.pwconv.1.1.weight",
+      "encoder.encoder.2.1.pwconv.1.1.bias",
+      "encoder.encoder.2.2.convs.convs1.0.1.weight",
+      "encoder.encoder.2.2.convs.convs1.0.1.bias",
+      "encoder.encoder.2.2.pwconv.0.1.weight",
+      "encoder.encoder.2.2.pwconv.0.1.bias",
+      "encoder.encoder.2.2.pwconv.1.1.weight",
+      "encoder.encoder.2.2.pwconv.1.1.bias",
+      "encoder.encoder.2.3.convs.convs1.0.1.weight",
+      "encoder.encoder.2.3.convs.convs1.0.1.bias",
+      "encoder.encoder.2.3.pwconv.0.1.weight",
+      "encoder.encoder.2.3.pwconv.0.1.bias",
+      "encoder.encoder.2.3.pwconv.1.1.weight",
+      "encoder.encoder.2.3.pwconv.1.1.bias",
+      "encoder.encoder.2.4.convs.convs1.0.1.weight",
+      "encoder.encoder.2.4.convs.convs1.0.1.bias",
+      "encoder.encoder.2.4.pwconv.0.1.weight",
+      "encoder.encoder.2.4.pwconv.0.1.bias",
+      "encoder.encoder.2.4.pwconv.1.1.weight",
+      "encoder.encoder.2.4.pwconv.1.1.bias",
+      "encoder.encoder.3.0.convs1.0.1.weight",
+      "encoder.encoder.3.0.convs1.0.1.bias",
+      "encoder.encoder.3.0.convs2.0.1.weight",
+      "encoder.encoder.3.0.convs2.0.1.bias",
+      "encoder.encoder.3.1.convs.convs1.0.1.weight",
+      "encoder.encoder.3.1.convs.convs1.0.1.bias",
+      "encoder.encoder.3.1.pwconv.0.1.weight",
+      "encoder.encoder.3.1.pwconv.0.1.bias",
+      "encoder.encoder.3.1.pwconv.1.1.weight",
+      "encoder.encoder.3.1.pwconv.1.1.bias",
+      "encoder.encoder.3.2.convs.convs1.0.1.weight",
+      "encoder.encoder.3.2.convs.convs1.0.1.bias",
+      "encoder.encoder.3.2.pwconv.0.1.weight",
+      "encoder.encoder.3.2.pwconv.0.1.bias",
+      "encoder.encoder.3.2.pwconv.1.1.weight",
+      "encoder.encoder.3.2.pwconv.1.1.bias",
+      "encoder.encoder.4.0.convs1.0.1.weight",
+      "encoder.encoder.4.0.convs1.0.1.bias",
+      "encoder.encoder.4.0.convs2.0.1.weight",
+      "encoder.encoder.4.0.convs2.0.1.bias",
+      "encoder.encoder.4.1.convs.convs1.0.1.weight",
+      "encoder.encoder.4.1.convs.convs1.0.1.bias",
+      "encoder.encoder.4.1.pwconv.0.1.weight",
+      "encoder.encoder.4.1.pwconv.0.1.bias",
+      "encoder.encoder.4.1.pwconv.1.1.weight",
+      "encoder.encoder.4.1.pwconv.1.1.bias",
+      "encoder.encoder.4.2.convs.convs1.0.1.weight",
+      "encoder.encoder.4.2.convs.convs1.0.1.bias",
+      "encoder.encoder.4.2.pwconv.0.1.weight",
+      "encoder.encoder.4.2.pwconv.0.1.bias",
+      "encoder.encoder.4.2.pwconv.1.1.weight",
+      "encoder.encoder.4.2.pwconv.1.1.bias",
+      "encoder.pe_encoder.1.0.1.weight",
+      "encoder.pe_encoder.1.0.1.bias",
+      "encoder.pe_encoder.2.0.1.weight",
+      "encoder.pe_encoder.2.0.1.bias",
+      "encoder.pe_encoder.3.0.1.weight",
+      "encoder.pe_encoder.3.0.1.bias",
+      "encoder.pe_encoder.4.0.1.weight",
+      "encoder.pe_encoder.4.0.1.bias",
+      "decoder.decoder.0.0.convs.0.1.weight",
+      "decoder.decoder.0.0.convs.0.1.bias",
+      "decoder.decoder.0.0.convs.1.1.weight",
+      "decoder.decoder.0.0.convs.1.1.bias",
+      "decoder.decoder.1.0.convs.0.1.weight",
+      "decoder.decoder.1.0.convs.0.1.bias",
+      "decoder.decoder.1.0.convs.1.1.weight",
+      "decoder.decoder.1.0.convs.1.1.bias",
+      "decoder.decoder.2.0.convs.0.1.weight",
+      "decoder.decoder.2.0.convs.0.1.bias",
+      "decoder.decoder.2.0.convs.1.1.weight",
+      "decoder.decoder.2.0.convs.1.1.bias",
+      "decoder.decoder.3.0.convs.0.1.weight",
+      "decoder.decoder.3.0.convs.0.1.bias",
+      "decoder.decoder.3.0.convs.1.1.weight",
+      "decoder.decoder.3.0.convs.1.1.bias",
+      "head.head.0.1.weight",
+      "head.head.0.1.bias",
+      "head.head.2.0.bias"
+    ],
+    "lr_scale": 1.0
+  }
+}
+[2024-04-08 08:24:06,321 INFO s3dis_dataset.py line 150 101099] 
+Totally 68 samples in val set
+[2024-04-08 08:24:06,439 INFO s3dis_dataset.py line 150 101099] 
+Totally 204 samples in train set
+[2024-04-08 08:24:06,439 INFO main.py line 488 101099] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start train and val >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2024-04-08 08:26:25,213 INFO main.py line 508 101099] Epoch 1 LR 0.010000 train_loss 1.27, train_miou 61.50, best val miou 0.00
+[2024-04-08 08:28:43,775 INFO main.py line 508 101099] Epoch 2 LR 0.009998 train_loss 1.28, train_miou 61.22, best val miou 0.00
+[2024-04-08 08:31:02,693 INFO main.py line 508 101099] Epoch 3 LR 0.009990 train_loss 1.27, train_miou 62.07, best val miou 0.00
+[2024-04-08 08:33:21,494 INFO main.py line 508 101099] Epoch 4 LR 0.009978 train_loss 1.27, train_miou 62.42, best val miou 0.00
+[2024-04-08 08:35:40,829 INFO main.py line 508 101099] Epoch 5 LR 0.009961 train_loss 1.26, train_miou 63.41, best val miou 0.00
+[2024-04-08 08:38:00,583 INFO main.py line 508 101099] Epoch 6 LR 0.009939 train_loss 1.26, train_miou 63.36, best val miou 0.00
+[2024-04-08 08:40:21,058 INFO main.py line 508 101099] Epoch 7 LR 0.009912 train_loss 1.26, train_miou 63.38, best val miou 0.00
+[2024-04-08 08:42:41,975 INFO main.py line 508 101099] Epoch 8 LR 0.009880 train_loss 1.25, train_miou 63.29, best val miou 0.00
+[2024-04-08 08:45:03,341 INFO main.py line 508 101099] Epoch 9 LR 0.009843 train_loss 1.25, train_miou 63.37, best val miou 0.00
+[2024-04-08 08:47:24,499 INFO main.py line 508 101099] Epoch 10 LR 0.009802 train_loss 1.24, train_miou 65.04, best val miou 0.00
+[2024-04-08 08:49:45,869 INFO main.py line 508 101099] Epoch 11 LR 0.009756 train_loss 1.24, train_miou 65.18, best val miou 0.00
+[2024-04-08 08:52:06,848 INFO main.py line 508 101099] Epoch 12 LR 0.009705 train_loss 1.25, train_miou 65.44, best val miou 0.00
+[2024-04-08 08:54:27,484 INFO main.py line 508 101099] Epoch 13 LR 0.009649 train_loss 1.24, train_miou 65.54, best val miou 0.00
+[2024-04-08 08:56:48,001 INFO main.py line 508 101099] Epoch 14 LR 0.009589 train_loss 1.24, train_miou 65.63, best val miou 0.00
+[2024-04-08 08:59:08,673 INFO main.py line 508 101099] Epoch 15 LR 0.009525 train_loss 1.23, train_miou 66.68, best val miou 0.00
+[2024-04-08 09:01:29,322 INFO main.py line 508 101099] Epoch 16 LR 0.009456 train_loss 1.23, train_miou 66.51, best val miou 0.00
+[2024-04-08 09:03:49,820 INFO main.py line 508 101099] Epoch 17 LR 0.009382 train_loss 1.22, train_miou 67.01, best val miou 0.00
+[2024-04-08 09:06:10,297 INFO main.py line 508 101099] Epoch 18 LR 0.009304 train_loss 1.23, train_miou 67.11, best val miou 0.00
+[2024-04-08 09:08:31,254 INFO main.py line 508 101099] Epoch 19 LR 0.009222 train_loss 1.24, train_miou 66.22, best val miou 0.00
+[2024-04-08 09:10:52,033 INFO main.py line 508 101099] Epoch 20 LR 0.009136 train_loss 1.24, train_miou 65.91, best val miou 0.00
+[2024-04-08 09:13:12,774 INFO main.py line 508 101099] Epoch 21 LR 0.009046 train_loss 1.23, train_miou 66.79, best val miou 0.00
+[2024-04-08 09:15:33,378 INFO main.py line 508 101099] Epoch 22 LR 0.008952 train_loss 1.22, train_miou 67.08, best val miou 0.00
+[2024-04-08 09:17:53,999 INFO main.py line 508 101099] Epoch 23 LR 0.008854 train_loss 1.21, train_miou 67.84, best val miou 0.00
+[2024-04-08 09:20:14,788 INFO main.py line 508 101099] Epoch 24 LR 0.008752 train_loss 1.21, train_miou 68.30, best val miou 0.00
+[2024-04-08 09:22:35,590 INFO main.py line 508 101099] Epoch 25 LR 0.008646 train_loss 1.21, train_miou 67.62, best val miou 0.00
+[2024-04-08 09:24:56,551 INFO main.py line 508 101099] Epoch 26 LR 0.008537 train_loss 1.21, train_miou 68.00, best val miou 0.00
+[2024-04-08 09:27:17,867 INFO main.py line 508 101099] Epoch 27 LR 0.008424 train_loss 1.21, train_miou 68.11, best val miou 0.00
+[2024-04-08 09:29:38,990 INFO main.py line 508 101099] Epoch 28 LR 0.008308 train_loss 1.20, train_miou 68.53, best val miou 0.00
+[2024-04-08 09:32:00,372 INFO main.py line 508 101099] Epoch 29 LR 0.008189 train_loss 1.20, train_miou 68.69, best val miou 0.00
+[2024-04-08 09:34:21,262 INFO main.py line 508 101099] Epoch 30 LR 0.008066 train_loss 1.21, train_miou 68.67, best val miou 0.00
+[2024-04-08 09:36:42,627 INFO main.py line 508 101099] Epoch 31 LR 0.007941 train_loss 1.20, train_miou 69.12, best val miou 0.00
+[2024-04-08 09:39:03,653 INFO main.py line 508 101099] Epoch 32 LR 0.007813 train_loss 1.20, train_miou 68.76, best val miou 0.00
+[2024-04-08 09:41:24,879 INFO main.py line 508 101099] Epoch 33 LR 0.007681 train_loss 1.20, train_miou 68.77, best val miou 0.00
+[2024-04-08 09:43:46,359 INFO main.py line 508 101099] Epoch 34 LR 0.007548 train_loss 1.19, train_miou 69.62, best val miou 0.00
+[2024-04-08 09:46:07,779 INFO main.py line 508 101099] Epoch 35 LR 0.007411 train_loss 1.19, train_miou 69.70, best val miou 0.00
+[2024-04-08 09:48:28,987 INFO main.py line 508 101099] Epoch 36 LR 0.007273 train_loss 1.19, train_miou 70.05, best val miou 0.00
+[2024-04-08 09:50:50,244 INFO main.py line 508 101099] Epoch 37 LR 0.007132 train_loss 1.19, train_miou 70.18, best val miou 0.00
+[2024-04-08 09:53:11,920 INFO main.py line 508 101099] Epoch 38 LR 0.006989 train_loss 1.18, train_miou 69.48, best val miou 0.00
+[2024-04-08 09:55:33,517 INFO main.py line 508 101099] Epoch 39 LR 0.006844 train_loss 1.19, train_miou 70.21, best val miou 0.00
+[2024-04-08 09:57:54,945 INFO main.py line 508 101099] Epoch 40 LR 0.006697 train_loss 1.19, train_miou 70.10, best val miou 0.00
+[2024-04-08 10:00:16,021 INFO main.py line 508 101099] Epoch 41 LR 0.006549 train_loss 1.19, train_miou 70.50, best val miou 0.00
+[2024-04-08 10:02:37,425 INFO main.py line 508 101099] Epoch 42 LR 0.006399 train_loss 1.19, train_miou 69.45, best val miou 0.00
+[2024-04-08 10:04:58,966 INFO main.py line 508 101099] Epoch 43 LR 0.006247 train_loss 1.18, train_miou 70.25, best val miou 0.00
+[2024-04-08 10:07:20,443 INFO main.py line 508 101099] Epoch 44 LR 0.006095 train_loss 1.19, train_miou 70.14, best val miou 0.00
+[2024-04-08 10:09:41,749 INFO main.py line 508 101099] Epoch 45 LR 0.005941 train_loss 1.18, train_miou 70.68, best val miou 0.00
+[2024-04-08 10:12:03,228 INFO main.py line 508 101099] Epoch 46 LR 0.005786 train_loss 1.18, train_miou 70.61, best val miou 0.00
+[2024-04-08 10:14:24,439 INFO main.py line 508 101099] Epoch 47 LR 0.005631 train_loss 1.18, train_miou 70.95, best val miou 0.00
+[2024-04-08 10:16:45,838 INFO main.py line 508 101099] Epoch 48 LR 0.005475 train_loss 1.18, train_miou 70.93, best val miou 0.00
+[2024-04-08 10:19:07,129 INFO main.py line 508 101099] Epoch 49 LR 0.005319 train_loss 1.17, train_miou 71.07, best val miou 0.00
+[2024-04-08 10:21:28,305 INFO main.py line 508 101099] Epoch 50 LR 0.005162 train_loss 1.18, train_miou 70.53, best val miou 0.00
+[2024-04-08 10:23:49,764 INFO main.py line 508 101099] Epoch 51 LR 0.005005 train_loss 1.18, train_miou 70.89, best val miou 0.00
+[2024-04-08 10:26:11,066 INFO main.py line 508 101099] Epoch 52 LR 0.004848 train_loss 1.17, train_miou 71.10, best val miou 0.00
+[2024-04-08 10:28:32,192 INFO main.py line 508 101099] Epoch 53 LR 0.004691 train_loss 1.16, train_miou 71.57, best val miou 0.00
+[2024-04-08 10:30:53,481 INFO main.py line 508 101099] Epoch 54 LR 0.004535 train_loss 1.17, train_miou 71.54, best val miou 0.00
+[2024-04-08 10:33:15,493 INFO main.py line 508 101099] Epoch 55 LR 0.004379 train_loss 1.17, train_miou 71.73, best val miou 0.00
+[2024-04-08 10:35:37,438 INFO main.py line 508 101099] Epoch 56 LR 0.004224 train_loss 1.17, train_miou 71.84, best val miou 0.00
+[2024-04-08 10:37:59,213 INFO main.py line 508 101099] Epoch 57 LR 0.004069 train_loss 1.16, train_miou 72.01, best val miou 0.00
+[2024-04-08 10:40:21,094 INFO main.py line 508 101099] Epoch 58 LR 0.003915 train_loss 1.16, train_miou 71.42, best val miou 0.00
+[2024-04-08 10:42:43,028 INFO main.py line 508 101099] Epoch 59 LR 0.003763 train_loss 1.16, train_miou 72.04, best val miou 0.00
+[2024-04-08 10:45:05,166 INFO main.py line 508 101099] Epoch 60 LR 0.003611 train_loss 1.17, train_miou 72.08, best val miou 0.00
+[2024-04-08 10:47:27,268 INFO main.py line 508 101099] Epoch 61 LR 0.003461 train_loss 1.16, train_miou 72.01, best val miou 0.00
+[2024-04-08 10:49:49,345 INFO main.py line 508 101099] Epoch 62 LR 0.003313 train_loss 1.16, train_miou 72.03, best val miou 0.00
+[2024-04-08 10:52:11,410 INFO main.py line 508 101099] Epoch 63 LR 0.003166 train_loss 1.16, train_miou 72.66, best val miou 0.00
+[2024-04-08 10:54:33,494 INFO main.py line 508 101099] Epoch 64 LR 0.003021 train_loss 1.16, train_miou 72.16, best val miou 0.00
+[2024-04-08 10:56:55,641 INFO main.py line 508 101099] Epoch 65 LR 0.002878 train_loss 1.15, train_miou 72.31, best val miou 0.00
+[2024-04-08 10:59:17,802 INFO main.py line 508 101099] Epoch 66 LR 0.002737 train_loss 1.16, train_miou 72.35, best val miou 0.00
+[2024-04-08 11:01:39,776 INFO main.py line 508 101099] Epoch 67 LR 0.002599 train_loss 1.16, train_miou 72.18, best val miou 0.00
+[2024-04-08 11:04:01,730 INFO main.py line 508 101099] Epoch 68 LR 0.002462 train_loss 1.15, train_miou 72.74, best val miou 0.00
+[2024-04-08 11:06:23,811 INFO main.py line 508 101099] Epoch 69 LR 0.002329 train_loss 1.15, train_miou 72.51, best val miou 0.00
+[2024-04-08 11:09:33,426 INFO main.py line 508 101099] Epoch 70 LR 0.002197 train_loss 1.15, train_miou 72.47, best val miou 62.70
+[2024-04-08 11:09:33,426 INFO main.py line 513 101099] Epoch 70 Find best ckpt, val_miou 62.70 val_macc 70.55, val_oa 87.59
+[2024-04-08 11:11:55,326 INFO main.py line 508 101099] Epoch 71 LR 0.002069 train_loss 1.15, train_miou 72.62, best val miou 62.70
+[2024-04-08 11:14:17,307 INFO main.py line 508 101099] Epoch 72 LR 0.001944 train_loss 1.15, train_miou 72.71, best val miou 62.70
+[2024-04-08 11:16:39,549 INFO main.py line 508 101099] Epoch 73 LR 0.001821 train_loss 1.15, train_miou 72.46, best val miou 62.70
+[2024-04-08 11:19:01,337 INFO main.py line 508 101099] Epoch 74 LR 0.001702 train_loss 1.15, train_miou 73.18, best val miou 62.70
+[2024-04-08 11:22:10,674 INFO main.py line 508 101099] Epoch 75 LR 0.001586 train_loss 1.14, train_miou 73.03, best val miou 62.70
+[2024-04-08 11:24:31,828 INFO main.py line 508 101099] Epoch 76 LR 0.001473 train_loss 1.15, train_miou 72.87, best val miou 62.70
+[2024-04-08 11:26:53,320 INFO main.py line 508 101099] Epoch 77 LR 0.001364 train_loss 1.14, train_miou 72.83, best val miou 62.70
+[2024-04-08 11:29:15,317 INFO main.py line 508 101099] Epoch 78 LR 0.001258 train_loss 1.14, train_miou 72.72, best val miou 62.70
+[2024-04-08 11:31:37,124 INFO main.py line 508 101099] Epoch 79 LR 0.001156 train_loss 1.15, train_miou 73.20, best val miou 62.70
+[2024-04-08 11:34:46,617 INFO main.py line 508 101099] Epoch 80 LR 0.001058 train_loss 1.15, train_miou 72.95, best val miou 63.37
+[2024-04-08 11:34:46,617 INFO main.py line 513 101099] Epoch 80 Find best ckpt, val_miou 63.37 val_macc 71.02, val_oa 87.48
+[2024-04-08 11:37:07,883 INFO main.py line 508 101099] Epoch 81 LR 0.000964 train_loss 1.14, train_miou 73.18, best val miou 63.37
+[2024-04-08 11:39:29,617 INFO main.py line 508 101099] Epoch 82 LR 0.000874 train_loss 1.15, train_miou 73.08, best val miou 63.37
+[2024-04-08 11:41:51,358 INFO main.py line 508 101099] Epoch 83 LR 0.000788 train_loss 1.14, train_miou 73.52, best val miou 63.37
+[2024-04-08 11:44:12,947 INFO main.py line 508 101099] Epoch 84 LR 0.000706 train_loss 1.14, train_miou 73.26, best val miou 63.37
+[2024-04-08 11:47:22,250 INFO main.py line 508 101099] Epoch 85 LR 0.000628 train_loss 1.14, train_miou 73.15, best val miou 63.58
+[2024-04-08 11:47:22,250 INFO main.py line 513 101099] Epoch 85 Find best ckpt, val_miou 63.58 val_macc 71.46, val_oa 87.76
+[2024-04-08 11:49:43,531 INFO main.py line 508 101099] Epoch 86 LR 0.000554 train_loss 1.14, train_miou 73.15, best val miou 63.58
+[2024-04-08 11:52:05,096 INFO main.py line 508 101099] Epoch 87 LR 0.000485 train_loss 1.14, train_miou 73.69, best val miou 63.58
+[2024-04-08 11:54:26,909 INFO main.py line 508 101099] Epoch 88 LR 0.000421 train_loss 1.14, train_miou 73.39, best val miou 63.58
+[2024-04-08 11:56:48,336 INFO main.py line 508 101099] Epoch 89 LR 0.000361 train_loss 1.14, train_miou 73.32, best val miou 63.58
+[2024-04-08 11:59:57,682 INFO main.py line 508 101099] Epoch 90 LR 0.000305 train_loss 1.14, train_miou 73.66, best val miou 63.64
+[2024-04-08 11:59:57,682 INFO main.py line 513 101099] Epoch 90 Find best ckpt, val_miou 63.64 val_macc 71.30, val_oa 87.75
+[2024-04-08 12:02:19,080 INFO main.py line 508 101099] Epoch 91 LR 0.000254 train_loss 1.14, train_miou 73.42, best val miou 63.64
+[2024-04-08 12:04:40,779 INFO main.py line 508 101099] Epoch 92 LR 0.000208 train_loss 1.14, train_miou 73.15, best val miou 63.64
+[2024-04-08 12:07:02,355 INFO main.py line 508 101099] Epoch 93 LR 0.000167 train_loss 1.14, train_miou 73.67, best val miou 63.64
+[2024-04-08 12:09:24,182 INFO main.py line 508 101099] Epoch 94 LR 0.000130 train_loss 1.14, train_miou 73.47, best val miou 63.64
+[2024-04-08 12:12:34,910 INFO main.py line 508 101099] Epoch 95 LR 0.000098 train_loss 1.14, train_miou 73.55, best val miou 64.29
+[2024-04-08 12:12:34,910 INFO main.py line 513 101099] Epoch 95 Find best ckpt, val_miou 64.29 val_macc 71.75, val_oa 87.87
+[2024-04-08 12:14:56,227 INFO main.py line 508 101099] Epoch 96 LR 0.000071 train_loss 1.14, train_miou 73.30, best val miou 64.29
+[2024-04-08 12:17:17,741 INFO main.py line 508 101099] Epoch 97 LR 0.000049 train_loss 1.14, train_miou 73.25, best val miou 64.29
+[2024-04-08 12:19:39,480 INFO main.py line 508 101099] Epoch 98 LR 0.000032 train_loss 1.14, train_miou 73.08, best val miou 64.29
+[2024-04-08 12:22:01,039 INFO main.py line 508 101099] Epoch 99 LR 0.000020 train_loss 1.14, train_miou 73.26, best val miou 64.29
+[2024-04-08 12:25:10,187 INFO main.py line 508 101099] Epoch 100 LR 0.000012 train_loss 1.14, train_miou 73.29, best val miou 64.29
+[2024-04-08 12:25:10,187 INFO main.py line 520 101099] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Val End! >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2024-04-08 12:25:10,187 INFO main.py line 522 101099] Best val @epoch95 , val_miou 64.29, val_macc 71.75, val_oa 87.87
+[2024-04-08 12:25:10,187 INFO main.py line 531 101099] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Start testing >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2024-04-08 12:25:10,187 INFO main.py line 535 101099] Test model @epoch95, loading the ckpt......
+[2024-04-08 12:25:24,214 INFO main.py line 216 101099] [1/68] cloud,  test_oa , test_macc, test_miou: 88.65 96.29 86.03
+[2024-04-08 12:25:33,748 INFO main.py line 216 101099] [2/68] cloud,  test_oa , test_macc, test_miou: 87.95 95.88 85.67
+[2024-04-08 12:25:55,164 INFO main.py line 216 101099] [3/68] cloud,  test_oa , test_macc, test_miou: 88.59 86.15 56.55
+[2024-04-08 12:28:05,106 INFO main.py line 216 101099] [4/68] cloud,  test_oa , test_macc, test_miou: 92.11 91.42 84.91
+[2024-04-08 12:28:54,947 INFO main.py line 216 101099] [5/68] cloud,  test_oa , test_macc, test_miou: 88.96 84.14 63.70
+[2024-04-08 12:33:35,086 INFO main.py line 216 101099] [6/68] cloud,  test_oa , test_macc, test_miou: 73.18 69.54 28.71
+[2024-04-08 12:34:09,507 INFO main.py line 216 101099] [7/68] cloud,  test_oa , test_macc, test_miou: 97.25 97.04 88.56
+[2024-04-08 12:34:26,988 INFO main.py line 216 101099] [8/68] cloud,  test_oa , test_macc, test_miou: 96.69 97.42 89.45
+[2024-04-08 12:34:45,060 INFO main.py line 216 101099] [9/68] cloud,  test_oa , test_macc, test_miou: 96.99 96.61 93.53
+[2024-04-08 12:35:24,792 INFO main.py line 216 101099] [10/68] cloud,  test_oa , test_macc, test_miou: 89.44 89.00 67.33
+[2024-04-08 12:35:36,225 INFO main.py line 216 101099] [11/68] cloud,  test_oa , test_macc, test_miou: 90.76 92.78 52.62
+[2024-04-08 12:36:21,549 INFO main.py line 216 101099] [12/68] cloud,  test_oa , test_macc, test_miou: 84.67 79.54 58.48
+[2024-04-08 12:43:39,639 INFO main.py line 216 101099] [13/68] cloud,  test_oa , test_macc, test_miou: 91.83 94.18 53.42
+[2024-04-08 12:44:09,054 INFO main.py line 216 101099] [14/68] cloud,  test_oa , test_macc, test_miou: 95.28 91.82 75.70
+[2024-04-08 12:44:29,703 INFO main.py line 216 101099] [15/68] cloud,  test_oa , test_macc, test_miou: 92.22 79.46 55.85
+[2024-04-08 12:47:02,510 INFO main.py line 216 101099] [16/68] cloud,  test_oa , test_macc, test_miou: 94.54 91.06 62.26
+[2024-04-08 12:47:20,724 INFO main.py line 216 101099] [17/68] cloud,  test_oa , test_macc, test_miou: 93.29 95.84 93.21
+[2024-04-08 12:47:54,634 INFO main.py line 216 101099] [18/68] cloud,  test_oa , test_macc, test_miou: 93.08 93.04 76.32
+[2024-04-08 12:48:01,535 INFO main.py line 216 101099] [19/68] cloud,  test_oa , test_macc, test_miou: 96.61 95.34 93.61
+[2024-04-08 12:48:37,879 INFO main.py line 216 101099] [20/68] cloud,  test_oa , test_macc, test_miou: 94.47 81.42 71.24
+[2024-04-08 12:49:05,835 INFO main.py line 216 101099] [21/68] cloud,  test_oa , test_macc, test_miou: 96.74 96.87 79.65
+[2024-04-08 12:49:20,811 INFO main.py line 216 101099] [22/68] cloud,  test_oa , test_macc, test_miou: 89.19 84.62 63.64
+[2024-04-08 12:49:35,144 INFO main.py line 216 101099] [23/68] cloud,  test_oa , test_macc, test_miou: 91.15 86.33 73.66
+[2024-04-08 12:49:51,377 INFO main.py line 216 101099] [24/68] cloud,  test_oa , test_macc, test_miou: 95.63 91.19 79.43
+[2024-04-08 12:50:07,533 INFO main.py line 216 101099] [25/68] cloud,  test_oa , test_macc, test_miou: 89.88 88.32 75.23
+[2024-04-08 12:50:31,024 INFO main.py line 216 101099] [26/68] cloud,  test_oa , test_macc, test_miou: 89.84 86.96 73.16
+[2024-04-08 12:51:07,557 INFO main.py line 216 101099] [27/68] cloud,  test_oa , test_macc, test_miou: 86.14 84.94 70.03
+[2024-04-08 12:51:47,822 INFO main.py line 216 101099] [28/68] cloud,  test_oa , test_macc, test_miou: 86.44 86.36 64.28
+[2024-04-08 12:52:02,753 INFO main.py line 216 101099] [29/68] cloud,  test_oa , test_macc, test_miou: 90.70 78.87 67.10
+[2024-04-08 12:52:23,869 INFO main.py line 216 101099] [30/68] cloud,  test_oa , test_macc, test_miou: 84.54 91.43 78.38
+[2024-04-08 12:52:59,570 INFO main.py line 216 101099] [31/68] cloud,  test_oa , test_macc, test_miou: 93.06 85.78 65.19
+[2024-04-08 12:54:04,779 INFO main.py line 216 101099] [32/68] cloud,  test_oa , test_macc, test_miou: 87.53 87.97 59.33
+[2024-04-08 12:54:22,476 INFO main.py line 216 101099] [33/68] cloud,  test_oa , test_macc, test_miou: 92.71 85.47 73.67
+[2024-04-08 12:54:29,822 INFO main.py line 216 101099] [34/68] cloud,  test_oa , test_macc, test_miou: 90.63 89.35 69.01
+[2024-04-08 12:56:01,737 INFO main.py line 216 101099] [35/68] cloud,  test_oa , test_macc, test_miou: 90.58 87.94 66.35
+[2024-04-08 12:56:17,265 INFO main.py line 216 101099] [36/68] cloud,  test_oa , test_macc, test_miou: 92.38 86.53 74.27
+[2024-04-08 12:56:37,159 INFO main.py line 216 101099] [37/68] cloud,  test_oa , test_macc, test_miou: 91.15 91.86 68.21
+[2024-04-08 12:57:37,517 INFO main.py line 216 101099] [38/68] cloud,  test_oa , test_macc, test_miou: 79.89 80.20 62.14
+[2024-04-08 12:57:47,597 INFO main.py line 216 101099] [39/68] cloud,  test_oa , test_macc, test_miou: 88.21 88.98 67.83
+[2024-04-08 12:58:01,933 INFO main.py line 216 101099] [40/68] cloud,  test_oa , test_macc, test_miou: 82.57 78.64 54.82
+[2024-04-08 12:58:16,846 INFO main.py line 216 101099] [41/68] cloud,  test_oa , test_macc, test_miou: 90.90 87.07 74.33
+[2024-04-08 12:58:31,795 INFO main.py line 216 101099] [42/68] cloud,  test_oa , test_macc, test_miou: 92.38 90.84 85.77
+[2024-04-08 12:59:37,684 INFO main.py line 216 101099] [43/68] cloud,  test_oa , test_macc, test_miou: 78.53 81.20 63.19
+[2024-04-08 12:59:51,144 INFO main.py line 216 101099] [44/68] cloud,  test_oa , test_macc, test_miou: 91.94 94.00 81.07
+[2024-04-08 12:59:57,634 INFO main.py line 216 101099] [45/68] cloud,  test_oa , test_macc, test_miou: 95.45 95.74 92.40
+[2024-04-08 13:00:17,416 INFO main.py line 216 101099] [46/68] cloud,  test_oa , test_macc, test_miou: 86.79 87.94 66.17
+[2024-04-08 13:00:31,874 INFO main.py line 216 101099] [47/68] cloud,  test_oa , test_macc, test_miou: 87.58 86.60 64.61
+[2024-04-08 13:00:54,300 INFO main.py line 216 101099] [48/68] cloud,  test_oa , test_macc, test_miou: 91.25 88.87 75.11
+[2024-04-08 13:01:16,975 INFO main.py line 216 101099] [49/68] cloud,  test_oa , test_macc, test_miou: 82.72 85.92 76.99
+[2024-04-08 13:01:37,329 INFO main.py line 216 101099] [50/68] cloud,  test_oa , test_macc, test_miou: 95.19 95.35 85.10
+[2024-04-08 13:02:12,633 INFO main.py line 216 101099] [51/68] cloud,  test_oa , test_macc, test_miou: 93.37 93.33 80.51
+[2024-04-08 13:04:58,604 INFO main.py line 216 101099] [52/68] cloud,  test_oa , test_macc, test_miou: 86.88 83.06 60.33
+[2024-04-08 13:08:19,145 INFO main.py line 216 101099] [53/68] cloud,  test_oa , test_macc, test_miou: 80.73 81.62 65.65
+[2024-04-08 13:08:39,484 INFO main.py line 216 101099] [54/68] cloud,  test_oa , test_macc, test_miou: 87.91 81.57 59.37
+[2024-04-08 13:08:55,048 INFO main.py line 216 101099] [55/68] cloud,  test_oa , test_macc, test_miou: 94.34 89.75 77.34
+[2024-04-08 13:12:01,871 INFO main.py line 216 101099] [56/68] cloud,  test_oa , test_macc, test_miou: 87.92 80.18 66.31
+[2024-04-08 13:12:57,401 INFO main.py line 216 101099] [57/68] cloud,  test_oa , test_macc, test_miou: 91.73 89.71 76.17
+[2024-04-08 13:13:19,079 INFO main.py line 216 101099] [58/68] cloud,  test_oa , test_macc, test_miou: 89.72 89.92 67.79
+[2024-04-08 13:13:31,536 INFO main.py line 216 101099] [59/68] cloud,  test_oa , test_macc, test_miou: 95.98 96.04 85.91
+[2024-04-08 13:13:45,636 INFO main.py line 216 101099] [60/68] cloud,  test_oa , test_macc, test_miou: 92.29 91.73 71.42
+[2024-04-08 13:14:06,047 INFO main.py line 216 101099] [61/68] cloud,  test_oa , test_macc, test_miou: 90.97 85.71 80.76
+[2024-04-08 13:14:28,081 INFO main.py line 216 101099] [62/68] cloud,  test_oa , test_macc, test_miou: 94.13 90.74 85.33
+[2024-04-08 13:14:43,924 INFO main.py line 216 101099] [63/68] cloud,  test_oa , test_macc, test_miou: 93.51 94.39 66.73
+[2024-04-08 13:14:54,544 INFO main.py line 216 101099] [64/68] cloud,  test_oa , test_macc, test_miou: 75.52 93.46 38.76
+[2024-04-08 13:15:05,289 INFO main.py line 216 101099] [65/68] cloud,  test_oa , test_macc, test_miou: 71.82 74.07 51.98
+[2024-04-08 13:15:24,044 INFO main.py line 216 101099] [66/68] cloud,  test_oa , test_macc, test_miou: 70.90 85.59 72.26
+[2024-04-08 13:15:25,534 INFO main.py line 216 101099] [67/68] cloud,  test_oa , test_macc, test_miou: 84.50 92.60 81.98
+[2024-04-08 13:15:38,022 INFO main.py line 216 101099] [68/68] cloud,  test_oa , test_macc, test_miou: 79.53 83.74 66.64
+[2024-04-08 13:15:38,023 INFO main.py line 544 101099] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Result on area 5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+[2024-04-08 13:15:38,023 INFO main.py line 546 101099] Test result @epoch95: test_oa 88.78, test_macc 72.67, test_miou 65.36
+[2024-04-08 13:15:38,023 INFO main.py line 548 101099] iou per: [93.29 97.21 82.03  0.   26.54 60.27 62.05 79.23 85.63 68.41 73.67 65.68
+ 55.64]
+[2024-04-08 13:15:38,023 INFO main.py line 550 101099] >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Finished all !!! >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
