@@ -56,5 +56,5 @@ run ./UCL/main.py
 
 
 ## Acknowledgement
-The code is built on PointNeXt. We thank the authors for sharing the codes.
+The code is built on PointNeXt. We thank the authors for sharing the code.
 
